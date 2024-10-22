@@ -35,12 +35,12 @@ body {
     }
 
     .container-4 {
-        background: white; /* Задайте желаемый цвет фона */
+        background: white; 
         display: flex;
         flex-direction: column;
         padding: 20px;
         border: 2px solid #000000;
-        height: 900px; /* Высота контейнера, можно изменить по желанию */
+        height: 900px; 
     }
 
     .fixed-fisher {
@@ -60,53 +60,53 @@ body {
 
     .container-3 {
         display: flex;
-        flex-wrap: wrap; /* Автоматический перенос на новую строку */
-        justify-content: space-between; /* Равномерное распределение */
-        background-color: #7B68EE; /* Цвет фона контейнера */
-        border: 2px solid #333; /* Контур элемента */
-        padding: 10px; /* Отступ вокруг содержимого */
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        background-color: #7B68EE; 
+        border: 2px solid #333;
+        padding: 10px;
     }
     
     .block-3 {
-        width: 200px; /* Ширина */
-        height: 200px; /* Высота */
-        background-color: #191970; /* Цвет фона блоков */
-        margin-bottom: 10px; /* Отступ между строками */
+        width: 200px; 
+        height: 200px; 
+        background-color: #191970; 
+        margin-bottom: 10px;
     }
     
     .container-2 {
-        background: #0664b1; /* Задайте любой цвет фона */
-        height: 600px; /* Высота контейнера для вертикального центрирования */
+        background: #0664b1; 
+        height: 600px; 
         display: flex;
-        justify-content: center; /* Горизонтальное центрирование */
-        align-items: center; /* Вертикальное центрирование */
+        justify-content: center;
+        align-items: center; 
     }
 
     .block-2 {
         width: 200px;
         height: 200px;
-        background-color: #074a92; /* Задайте любой цвет фона */
+        background-color: #074a92; 
     }
 
     .container {
-        background: #00BFFF; /* Задайте желаемый цвет фона */
+        background: #00BFFF; 
         display: flex;
         flex-direction: column;
-        align-items: center; /* Центрирование по горизонтали */
+        align-items: center;
         padding: 20px;
-        height: 600px; /* Высота контейнера, можно изменить по желанию */
+        height: 600px; 
     }
 
     .block {
         width: 200px;
         height: 200px;
-        background-color: #B0C4DE; /* Задайте желаемый цвет фона блока */
-        margin-bottom: 20px; /* Отступ снизу для изображения */
+        background-color: #B0C4DE;
+        margin-bottom: 20px; 
     }
 
     img {
         width: 200px;
-        height: auto; /* Сохраняем пропорции изображения */
+        height: auto; 
     }
 
     .header {
