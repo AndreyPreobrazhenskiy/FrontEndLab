@@ -81,6 +81,42 @@
             </tbody>
     </table>
     </div>
+    <br>
+
+    <form id="student-form">
+        <label for="id">ID:</label><br>
+        <input type="number" id="id" name="id" required><br><br>
+
+        <label for="fio">ФИО студента:</label><br>
+        <input type="text" id="fio" name="fio" required><br><br>
+
+        <label for="recordBook">Номер зачетной книжки:</label><br>
+        <input type="text" id="recordBook" name="recordBook" required><br><br>
+
+        <label for="group">Номер группы:</label><br>
+        <input type="text" id="group" name="group" required><br><br>
+
+        <label for="gender">Пол:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="мужской">Мужской</option>
+            <option value="женский">Женский</option>
+        </select><br><br>
+
+        <label for="age">Возраст:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="admissionForm">Форма поступления:</label><br>
+        <select id="admissionForm" name="admissionForm" required>
+            <option value="По результатам ЕГЭ">По результатам ЕГЭ</option>
+            <option value="По льготам">По льготам</option>
+            <option value="По олимпиаде">По олимпиаде</option>
+        </select><br><br>
+
+        <label for="specialty">Название направления:</label><br>
+        <input type="text" id="specialty" name="specialty" required><br><br>
+
+        <button type="submit">Добавить</button>
+    </form>
 
 </body>
 
